@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
 		get_strs(n, s, res);
 		cout << "-----" << endl;
 		for(auto i:res){
-			cout << i << endl;
+			cout << s+i << endl;
 		}
 		cout << "-----" << endl;
 	}
